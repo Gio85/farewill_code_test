@@ -3,17 +3,16 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "concurrently": "^5.2.0",
+    "prettier": "^2.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
-    "styled-components": "^5.1.1",
-    "concurrently": "^5.2.0"
+    "styled-components": "^5.1.1"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\""
-  },
-  "engines": {
-    "node": "12.x"
+    "start": "react-scripts start",
+    "prettier": "prettier --write \"src/**/*.js\""
   },
   "browserslist": [
     ">0.2%",

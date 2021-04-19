@@ -1,54 +1,68 @@
 export const BORDER = {
   RADIUS: {
-    S: "4px",
-    M: "6px",
+    S: '4px',
+    M: '6px'
   },
 
   SHADOW: {
-    M: "0px 4px 8px rgba(0, 0, 0, 0.1)",
-  },
-};
+    M: '0px 4px 8px rgba(0, 0, 0, 0.1)'
+  }
+}
 
 export const COLOR = {
-  WHITE: "#FFFFFF",
-  BLACK: "#000000",
+  WHITE: '#FFFFFF',
+  BLACK: '#000000',
 
   GREY: {
-    LIGHT: "#DEDBDD",
-    MEDIUM: "#8D9495",
-    DARK: "#495456",
+    LIGHT: '#DEDBDD',
+    MEDIUM: '#8D9495',
+    DARK: '#495456'
   },
 
   ACCENT: {
-    PRIMARY: "#FFDF4E",
-    SECONDARY: "#3E487D",
+    PRIMARY: '#FFDF4E',
+    SECONDARY: '#3E487D'
   },
 
-  BACKGROUND: "#F9F9F9",
-};
+  BACKGROUND: '#F9F9F9'
+}
 
 export const FONT = {
   FAMILY: {
-    BODY: "Visuelt, Helvetica, sans-serif",
+    BODY: 'Visuelt, Helvetica, sans-serif'
   },
   SIZE: {
-    S: "16px",
-    M: "18px",
-    L: "24px",
+    S: '16px',
+    M: '18px',
+    L: '24px'
   },
   WEIGHT: {
     REGULAR: 400,
     MEDIUM: 500,
-    BOLD: 700,
-  },
-};
+    BOLD: 700
+  }
+}
 
 export const SPACING = {
-  XS: "8px",
-  S: "16px",
-  M: "24px",
-  L: "32px",
-  XL: "48px",
-};
+  XS: '8px',
+  S: '16px',
+  M: '24px',
+  L: '32px',
+  XL: '48px'
+}
 
-export const CONTENT_WIDTH = "900px";
+export const CONTENT_WIDTH = '900px'
+
+export const SIZE = {
+  MOBILE_S: '310px',
+  MOBILE_M: '375px',
+  MOBILE_L: '425px',
+  TABLET: '768px'
+}
+
+export const DEVICE = {
+  MOBILE_S: `(min-width: ${SIZE.MOBILE_S})`,
+  MOBILE_M: `(min-width: ${SIZE.MOBILE_M})`,
+  MOBILE_L: `(min-width: ${SIZE.MOBILE_L})`,
+  TABLET: `(min-width: ${SIZE.TABLET})`
+}
