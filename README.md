@@ -75,3 +75,10 @@ If you don't want to use Glitch for any reason, you can [download the project](h
 - What went well?
 - What could have gone better?
 - Is there anything particular you'd like to come back and improve if you had time? Why?
+
+
+### Personal notes
+I decided to go for this challenge because I wanted to push myself on pure CSS. 
+I found it really challenging but at the same time really satisfactory.
+I think it went quite well, considering my CSS skills.
+For sure the transition from desktop to mobile could have gone better but considering the time I am happy with it.
